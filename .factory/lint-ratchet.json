@@ -6,5 +6,5 @@
     "complexity": ["error", 8],
     "max-lines-per-function": ["error", { "max": 40, "skipComments": true }]
   },
-  "pending": ["@typescript-eslint/explicit-function-return-type", "max-lines-per-function"]
+  "pending": ["max-lines-per-function"]
 }
