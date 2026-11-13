@@ -5,7 +5,7 @@
 
 ## Context
 
-We need corrections of an original invoice (issue #10). A correction could be modelled as (a) a
+We need corrections of an original invoice (issue #4). A correction could be modelled as (a) a
 separate document of difference lines with negative amounts, or (b) a "before / after" pair for each
 line of the original invoice. The two models round VAT differently and can disagree by one cent.
 
