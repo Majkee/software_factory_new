@@ -6,5 +6,5 @@
     "complexity": ["error", 8],
     "max-lines-per-function": ["error", { "max": 40, "skipComments": true }]
   },
-  "pending": ["max-lines-per-function"]
+  "pending": []
 }
