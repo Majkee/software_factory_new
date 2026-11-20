@@ -16,5 +16,8 @@ tests or a ratchet instead — if you find yourself adding a mechanical rule her
    comes from one.
 7. **Public behaviour changes are explicit.** If a change alters output for existing inputs, the PR
    says so under "Merge danger".
+8. **The gate is shown, not claimed.** Evidence cites the `check` job of the PR's CI run or pastes the
+   tail of `npm run check`. A reviewer who cannot run the gate reads the `check` status with
+   `gh pr checks <n>`; it does not write "not verified" while that status is green.
 
 The retro task may propose changes to this file. A human must approve every change.
